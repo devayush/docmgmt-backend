@@ -10,7 +10,7 @@ Includes JWT authentication, role-based access, file uploads, rate limiting, log
 ### 1. **Clone the Repository**
 
 ```sh
-git clone https://github.com/your-org/docmgmt-backend.git
+git clone https://github.com/devayush/docmgmt-backend.git
 cd docmgmt-backend
 ```
 
