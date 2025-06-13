@@ -1,0 +1,33 @@
+/src/generated/prisma
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Prisma
+prisma/dev.db
+prisma/test.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Docker
+pgdata/
+
+.vscode/
