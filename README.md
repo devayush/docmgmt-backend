@@ -7,7 +7,14 @@ Includes JWT authentication, role-based access, file uploads, rate limiting, log
 
 ## 🚀 Getting Started
 
-### 1. **Clone the Repository**
+### 1. **Prerequisite**
+
+- **Docker** must be installed on your machine.  
+  [Get Docker here](https://docs.docker.com/get-docker/)
+
+---
+
+### 2. **Clone the Repository**
 
 ```sh
 git clone https://github.com/devayush/docmgmt-backend.git
@@ -16,7 +23,7 @@ cd docmgmt-backend
 
 ---
 
-### 2. **Environment Variables**
+### 3. **Environment Variables**
 
 Copy `.env.example` to `.env` and fill in your secrets and config:
 
@@ -37,7 +44,7 @@ cp .env.example .env
 
 ---
 
-### 3. **Start with Docker**
+### 4. **Start with Docker Compose**
 
 Build and run the app, database, and seed data:
 
@@ -45,11 +52,12 @@ Build and run the app, database, and seed data:
 docker compose up --build
 ```
 
-- The app will run migrations, seed 1000 users and 100,000 documents, and start the server.
+- The app will run migrations, seed 1,000 users and 100,000 documents, and start the server.
+- **Note:** Make sure Docker is running before executing this command.
 
 ---
 
-### 4. **Where is the Server Running?**
+### 5. **Where is the Server Running?**
 
 - **API Base URL:** [http://localhost:3300/api](http://localhost:3300/api)
 - **Swagger Docs:** [http://localhost:3300/api/docs](http://localhost:3300/api/docs)

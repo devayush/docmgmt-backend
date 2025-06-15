@@ -30,4 +30,18 @@ coverage/
 # Docker
 pgdata/
 
+# Ignore editor files
 .vscode/
+
+# Jest coverage
+coverage/
+
+# logs
+logs/
+*.log
+
+# Ignore local development files
+uploads/
+
+# Docker for PG
+pgdata/
